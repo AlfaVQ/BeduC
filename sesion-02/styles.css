@@ -1,8 +1,11 @@
 h1 {
     color: #000000;
+    font-family: 'Barlow Condensed', sans-serif;
+    
 }
 h2{
     color: #8A838C;
+    font-family: 'Cormorant Garamond', serif;
 }
 button{
     color: #fff;
@@ -19,11 +22,16 @@ input{
 }
 body{
     background-color: #23014D;
+   /*Ancho del dispositivo*/
+    width: 80vw;
+    /*Altura del dispositivo*/
+    height: 80vh;
 }
 
 li{
     display: inline;
     margin: 50px;
+    font-family: 'Viga', sans-serif;
 }
 nav{
     display: inline-block;
@@ -49,4 +57,13 @@ img{
 }
 ul{
     display: inline;
+}
+html {font-size: 70%;
+}
+@media (min-width: 600px){
+    font-size: 100%;
+}
+.text{
+    font-size:  2rem;
+    margin: 1em;
 }
