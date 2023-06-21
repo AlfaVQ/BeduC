@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20% 0 20%;
+
+}
+
+.iconos {
+    width: 25px;
+    height: 25px;
+    padding: 0 5px 0 0;
+    filter: invert(100%);
+}
+
+.flex-item2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#principalCuerpo {
+    background-color: grey;
+}
+
+.flex-item3 {
+    display: flex;
+    align-items: center;
+    align-content: last baseline;
+    background-color: #fff;
+    margin: 1% 0 0 0;
+}
+
+.itemh3{
+    display: flex;
+    
+}
+
+.itemp{
+    display: table-column;
+}
+
+.flex-item4 {
+    display: flex;
+    align-items: center;
+    align-content: last baseline;
+    background-color: #fff;
+    margin: 1% 0 1% 0;
+}
+
+.flex-item5 {
+    display: flex;
+    align-items: center;
+    align-content: last baseline;
+    background-color: #fff;
+}
